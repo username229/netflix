@@ -68,13 +68,12 @@ npm run build
 npm run start
 ```
 
-Observação: Se `npm ci` falhar com ENOSPC (sem espaço em disco), libere espaço e tente novamente.
+
 
 ---
 
 ## Variáveis de ambiente
 
-Crie um arquivo `.env.local` na raiz com as variáveis necessárias (exemplo mínimo):
 
 ```env
 NEXT_PUBLIC_TMDB_API_KEY=seu_api_key_aqui
@@ -82,8 +81,6 @@ NEXT_PUBLIC_TMDB_BASE_URL=https://api.themoviedb.org/3
 PORT=3000
 NODE_ENV=production
 ```
-
-NÃO comite credenciais ou chaves.
 
 ---
 
@@ -134,7 +131,6 @@ Este projeto está configurado como **Netflix Clone**. Quaisquer referências a 
 
 ---
 
-Made with ❤️ — Se quiser, eu adapto este README para um formato mais curto ou para publicar no GitHub Pages.
 # 🎬 Netflix Clone
 
 <div align="center">
@@ -147,16 +143,16 @@ Made with ❤️ — Se quiser, eu adapto este README para um formato mais curto
 
 **Professional Netflix clone with TMDB API, authentication, and favorites system!**
 
-[🐳 Docker Hub](https://hub.docker.com) • [📖 Documentation](README.md) • [🚀 Live Demo](http://localhost:3000)
+[ Docker Hub](https://hub.docker.com) • [ Documentation](README.md) • [Live Demo](http://localhost:3000)
 
 </div>
 
 ---
 
-## 🚀 Quick Start with Docker
+## Quick Start with Docker
 
 ```bash
-🎬 Netflix Clone
+Netflix Clone
 
 A compact Netflix-style frontend built with Next.js and TypeScript. This repository contains a React + Next.js app (App Router) and Docker support so you can run it locally in containers.
 
