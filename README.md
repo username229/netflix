@@ -25,13 +25,13 @@ Pré-requisitos:
 docker build -t netflix-clone:latest .
 ```
 
-2) Executar o container (mapeando a porta 3000):
+2) Executar o container:
 
 ```powershell
 docker run --rm -p 3000:3000 --env-file .env.local netflix-clone:latest
 ```
 
-3) Usando docker-compose (opção recomendada para desenvolvimento local):
+3) Usando docker-compose:
 
 ```powershell
 docker-compose up --build
@@ -118,20 +118,8 @@ npm run start    # iniciar servidor de produção (após build)
 
 ---
 
-## Observação sobre renomeação
 
-Este projeto está configurado como **Netflix Clone**. Quaisquer referências a nomes antigos de projeto (por exemplo, MovieMate) foram removidas ou atualizadas.
-
----
-
-## Próximos passos sugeridos
-
-- Se quiser que eu rode o build local (`npm ci` + `npm run build`) e/ou a imagem Docker, libere espaço em disco e me avise; eu posso executar os comandos e reportar os erros restantes.
-- Posso também gerar um guia passo-a-passo em português mais detalhado (como publicar a imagem no Docker Hub, criar tags semânticas, ou configurar CI).
-
----
-
-# 🎬 Netflix Clone
+#  Netflix Clone
 
 <div align="center">
 
@@ -227,7 +215,6 @@ npm run build
 npm run start
 ```
 
-If `npm ci` fails with ENOSPC (no space left on device), free disk space then retry.
 
 ---
 
@@ -286,4 +273,4 @@ Contributions welcome — open issues or PRs for improvements.
 
 ---
 
-If you want, I can now (without changing source code) add a short Docker section to the top of `README.md` in Portuguese instead, or produce a concise checklist of the exact commands you should run on Windows (PowerShell) to build and run the container. Tell me which you prefer.
+
